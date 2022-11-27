@@ -7,13 +7,16 @@
 |init|`git init`| Trenutni repozitorij postane git repozitorij
 |clone|`git clone [link]` | Kloniranje je le olepšana beseda za "download"
 
-## Najbolj pogosti ukazi
+## Objavljanje
 
 | Ukaz | Primer | Opis |
 |-|-|-|
 |status|`git status`| Najpomembnejše informacije o spremembah in repozitoriju
-|add|`git add .` | Izbereš datoteke, ki jih želiš commitati
+|add|`git add .` | Izbereš datoteke, ki jih boš želel commitati (dodaš v "stage")
 |commit|`git commit -m "komentar"`|Vsebino datotek shranimo kot točko na časovnici prepoznavno po komentarju|
+|push|`git push`|Vse commite pošlje na oddaljen repozitorij|
+|fetch|`git fetch`|Osveži spremembe z oddaljenega repozitorija|
+|pull|`git pull`|Prenese spremembe z oddaljenega repozitorija|
 
 ## Dodatno
 
