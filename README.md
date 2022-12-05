@@ -23,3 +23,4 @@
 | Ukaz | Primer | Opis |
 |-|-|-|
 |config color.ui|`git config --global color.ui auto`|Barve v terminalu so bolj izrazite|
+|commit -a -m|`git commit -a -m "komentar"`|Ukaz add . združimo z ukazom commit|
